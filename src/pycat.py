@@ -172,8 +172,11 @@ class PyCat():
         # Call updateFramePosition() again after 100ms
         self.window.after(10, self.updateFramePosition)
 
-        # If not deceased, call switchToDeceasedAnimation() after 20 minutes
-        not self.isDeceased and self.window.after(6000, self.switchToDeceasedAnimation)
+        # If not deceased:
+        #   For demo, call switchToDeceasedAnimation() after 6 seconds (for demo purposes)
+        #   For actual product, call switchToDeceasedAnimation() to prompt user to rest after 20 minutes based on 'American Optometric Association' 20-20-20 guidelines (Every 20mins, look at something 20ft away for 20 seconds)
+        # not self.isDeceased and self.window.after(6000, self.switchToDeceasedAnimation)
+        not self.isDeceased and self.window.after(1200000, self.switchToDeceasedAnimation)
 
     def updateFramePosition(self):
         reached_left_screen_edge = self.reachedLeftEdge()
