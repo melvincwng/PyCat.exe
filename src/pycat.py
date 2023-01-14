@@ -34,8 +34,9 @@ class PyCat():
         self.frame_index = 0
         self.current_image = self.alive_animation[self.frame_index]
 
-        # Timestamp to check whether to advance to the next frame/image (time.time() returns the current time in seconds since the Epoch)
-        self.timestamp = time.time()
+        # We need a previous timestamp to check whether can we advance to the next frame/image for our cat.gif
+        # time.time() returns the current time in seconds since the Epoch)\
+        self.previous_timestamp = time.time()
 
         # Generate random X,Y coordinates for your pet cat to spawn at (X: 0 to 1280 - random, Y: 608 - fixed)
         SCREEN_WIDTH = self.window.winfo_screenwidth()
@@ -57,10 +58,31 @@ class PyCat():
         # # Add the image to our Label widget. Now out tkinter window will have the image of our pet cat.
         self.label.configure(image=self.current_image)
 
+        # The .pack() method is used to help display the widget in the window.
+        self.label.pack()
+
         # Execute tkinter
         self.window.mainloop()
+  
+        # Move to the right by one px
+        self.x_position += 1
 
-        
+        # Advance to the next frame/image if 125ms have passed
+        current_timestamp = time.time()
+        if current_timestamp > self.previous_timestamp + 0.125:
+            self.previous_timestamp = time.time()
+            # advance the frame by one, wrap back to 0 at the end
+            self.frame_index = (self.frame_index + 1) % 114
+            self.current_image = self.alive_animation[self.frame_index]
 
+        # Create the window
+        self.window.geometry(f"64x64+{self.x_position}+{self.y_position}")
+        # Add the image to our label
+        self.label.configure(image=self.current_image)
+        # Give window to geometry manager (so it will appear)
+        self.label.pack()
+
+        # Call updateFrame() again after 150ms
+        self.window.after(125, self.updateFrame)
 if __name__ == '__main__':
     PyCat()
