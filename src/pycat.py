@@ -79,10 +79,12 @@ class PyCat():
         self.window.geometry(f"64x64+{self.x_position}+{self.y_position}")
         # Add the image to our label
         self.label.configure(image=self.current_image)
-        # Give window to geometry manager (so it will appear)
+
+        # The .pack() method is used to help display the widget in the window.
         self.label.pack()
 
-        # Call updateFrame() again after 150ms
+        # Call updateFrame() again after 125ms
         self.window.after(125, self.updateFrame)
+        
 if __name__ == '__main__':
     PyCat()
