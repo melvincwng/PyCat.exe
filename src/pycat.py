@@ -55,31 +55,35 @@ class PyCat():
         # Set your tkinter window of size 64x64 pixels to be spawned at the X,Y coordinates of (0 to 1280, 608) - random for X, fixed for Y
         self.window.geometry(f"64x64+{RANDOM_X_AXIS_START_POINT}+{FIXED_Y_AXIS_START_POINT}")
 
-        # # Add the image to our Label widget. Now out tkinter window will have the image of our pet cat.
+        # Add the image to our Label widget. Now out tkinter window will have the image of our pet cat.
         self.label.configure(image=self.current_image)
 
         # The .pack() method is used to help display the widget in the window.
         self.label.pack()
 
-        # Execute tkinter
+        # When mainloop() starts, we will run self.updateFrame() after 0ms
+        self.window.after(0, self.updateFrame)
+
+        # Start the mainloop
         self.window.mainloop()
-  
+
+    def updateFrame(self):
         # Move to the right by one px
         self.x_position += 1
 
-        # Advance to the next frame/image if 125ms have passed
+        # Advance to the next frame/image if 125ms have passed & we loop back to 1 once last frame is reached
         current_timestamp = time.time()
         if current_timestamp > self.previous_timestamp + 0.125:
             self.previous_timestamp = time.time()
-            # advance the frame by one, wrap back to 0 at the end
             self.frame_index = (self.frame_index + 1) % 114
             self.current_image = self.alive_animation[self.frame_index]
 
-        # Create the window
+        # Set your tkinter window of size 64x64 pixels to be spawned at the random coordinates for X, fixed for Y
         self.window.geometry(f"64x64+{self.x_position}+{self.y_position}")
-        # Add the image to our label
-        self.label.configure(image=self.current_image)
 
+         # Add the image to our label again
+        self.label.configure(image=self.current_image)
+        
         # The .pack() method is used to help display the widget in the window.
         self.label.pack()
 
