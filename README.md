@@ -56,11 +56,14 @@ This approach/solution used in this desktop app is actually inspired from actual
 
 ## Future plans (if there's time to work on this beyond the scope of the hackathon):
 
-- KIV at the moment (e.g. More pets of different colour schemes, make into chrome extension & so forth)
+- KIV at the moment:
+  - More pets of different colour schemes, 
+  - Make into chrome extension (since PyInstaller compiled exe files by Windows, don't work in macOS) &
+  - Possibility of integrating various AI/ML libraries - e.g. to track eyes movement via your webcam? (e.g. ScikitLearn? If it's feasible & got such pre-trained models to use?)
 
 ## Done by:
 
-- Melvin Ng (Tag Number: T430, Participant ID: #609)
+- Melvin Ng (Tag Number: T430, Participant ID: #609, Participant Table: 160)
 - Created as part of the NUS Hack&Roll 2023 Hackathon event (14/01/2023 - 15/01/2023)
 
 ## References:
