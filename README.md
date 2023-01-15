@@ -64,6 +64,15 @@ This approach/solution used in this desktop app is actually inspired from actual
   - More pets of different colour schemes, 
   - Make into chrome extension (since PyInstaller compiled exe files by Windows, don't work in macOS) &
   - Possibility of integrating various AI/ML libraries - e.g. to track eyes movement via your webcam? (e.g. ScikitLearn? If it's feasible & got such pre-trained models to use?)
+  
+## Post Hackathon Reflection:
+- My thoughts on the entire NUS Hack & Roll Hackathon 2023 can be found [here](https://musubi.vercel.app/admin1/nus-hack-and-roll-2023)
+- Overall, very fun & enjoyable event, and got to meet & network with some amazing people ✨
+
+## Hackathon Counter & Tracker 🧮:
+1. DBS Techtrek 2021 (Virtual Hackathon)
+2. GitHub Hacktoberfest 2022 (Virtual Hackathon)
+3. NUS Hack & Roll 2023 (Physical Hackathon)
 
 ## Done by:
 
