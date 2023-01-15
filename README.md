@@ -10,7 +10,7 @@ It has two main purposes actually, i.e. to act as:
 ## How to set up the project locally?
 
 1. Clone the repository using `git clone https://github.com/melvincwng/pycat.exe.git` command.
-2. In the root directory, go into the `src` folder. You should pycatDemo.zip & pycatFinal.zip.
+2. In the root directory, go into the `src` folder. You should see pycatDemo.zip & pycatFinal.zip.
 3. Copy the pycatFinal.zip into another new folder of your choice & unzip it.
 4. Open the folder & you should see a `pycat.exe` file. Click on it to run the application.
 5. For the live demo, we will be using pycatDemo.zip instead (contains slightly modified code meant specifically for demo purposes). Copy the pycatDemo.zip into another new folder of your choice, unzip it & then run the `pycat.exe` file as well.
