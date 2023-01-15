@@ -53,6 +53,10 @@ This approach/solution used in this desktop app is actually inspired from actual
 ## Live Demo:
 
 - Will be conducted during Judging session on 15/01/2023
+- Some screenshots:
+    - <img src="./img/Demo/pyCat1.png" alt="demo-image-1">
+    - <img src="./img/Demo/pyCat2.png" alt="demo-image-2">
+    - <img src="./img/Demo/pyCatLogo.png" alt="demo-image-3"> (Logo)
 
 ## Future plans (if there's time to work on this beyond the scope of the hackathon):
 
