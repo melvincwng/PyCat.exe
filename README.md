@@ -57,6 +57,7 @@ This approach/solution used in this desktop app is actually inspired from actual
     - <img src="./img/Demo/pyCat1.png" alt="demo-image-1">
     - <img src="./img/Demo/pyCat2.png" alt="demo-image-2">
     - <img src="./img/Demo/pyCatLogo.png" alt="demo-image-3"> (Logo)
+- Devpost link: https://devpost.com/software/pycat-exe 
 
 ## Future plans (if there's time to work on this beyond the scope of the hackathon):
 
