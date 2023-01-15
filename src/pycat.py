@@ -30,6 +30,12 @@ class PyCat():
         # 'bd' refers to the border width or size belonging to the Label widget (in px)
         self.label = tk.Label(self.window, bd=0, bg="white")
 
+        # KIV till further notice - Adding text to Entry widget (Not fully working atm)
+        # entry = tk.Entry(self.window)
+        # entry.pack()
+        # entry.insert("end", "Hello world!")
+        # entry.configure({"background": "white", "foreground": "red","font": ("Helvetica", 8)})
+
         # Turn 'white' background color into transparent color instead
         self.window.wm_attributes("-transparentcolor", "white")
 
@@ -92,6 +98,12 @@ class PyCat():
         # Create a Label widget as a container that can be used to store our image (it can also store text)
         # 'bd' refers to the border width or size belonging to the Label widget (in px)
         self.label = tk.Label(self.windowTwo, bd=0, bg="white")
+
+        # KIV till further notice - Adding text to Entry widget (Not fully working atm)
+        # entry = tk.Entry(self.window)
+        # entry.pack()
+        # entry.insert("end", "Hello world!")
+        # entry.configure({"background": "white", "foreground": "yellow","font": ("Helvetica", 6)})
 
         # Turn 'white' background color into transparent color instead
         self.windowTwo.wm_attributes("-transparentcolor", "white")
