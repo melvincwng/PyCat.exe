@@ -47,8 +47,8 @@ This approach/solution used in this desktop app is actually inspired from actual
 - Python (Core programming language)
 - Tkinter (Python GUI library)
 - Ezgif.com (gif maker)
-- Pyinstaller (to create executable)
 - Open source art assets by [Bow.Pixel](https://bowpixel.itch.io/cat-anim-16x16-black)
+- Pyinstaller (to package everything up & create the executable/.exe file)
 
 ## Live Demo:
 
