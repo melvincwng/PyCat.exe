@@ -30,6 +30,12 @@ class PyCat():
         # 'bd' refers to the border width or size belonging to the Label widget (in px)
         self.label = tk.Label(self.window, bd=0, bg="white")
 
+        # Add text to Entry widget
+        entry = tk.Entry(self.window)
+        entry.pack()
+        entry.insert("end", "Hello world!")
+        entry.configure({"background": "white", "foreground": "yellow","font": ("Helvetica", 6)})
+
         # Turn 'white' background color into transparent color instead
         self.window.wm_attributes("-transparentcolor", "white")
 
@@ -92,6 +98,12 @@ class PyCat():
         # Create a Label widget as a container that can be used to store our image (it can also store text)
         # 'bd' refers to the border width or size belonging to the Label widget (in px)
         self.label = tk.Label(self.windowTwo, bd=0, bg="white")
+
+        # Add text to Entry widget
+        entry = tk.Entry(self.windowTwo)
+        entry.pack()
+        entry.insert("end", "Rest your eye")
+        entry.configure({"background": "white", "foreground": "yellow", "width": "100","font": ("Helvetica", 6)})
 
         # Turn 'white' background color into transparent color instead
         self.windowTwo.wm_attributes("-transparentcolor", "white")
@@ -175,8 +187,8 @@ class PyCat():
         # If not deceased:
         #   For demo, call switchToDeceasedAnimation() after 6 seconds (for demo purposes)
         #   For actual product, call switchToDeceasedAnimation() to prompt user to rest after 20 minutes based on 'American Optometric Association' 20-20-20 guidelines (Every 20mins, look at something 20ft away for 20 seconds)
-        # not self.isDeceased and self.window.after(6000, self.switchToDeceasedAnimation)
-        not self.isDeceased and self.window.after(1200000, self.switchToDeceasedAnimation)
+        not self.isDeceased and self.window.after(6000, self.switchToDeceasedAnimation)
+        # not self.isDeceased and self.window.after(1200000, self.switchToDeceasedAnimation)
 
     def updateFramePosition(self):
         reached_left_screen_edge = self.reachedLeftEdge()
