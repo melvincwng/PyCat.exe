@@ -63,7 +63,7 @@ This approach/solution used in this desktop app is actually inspired from actual
 
 - KIV at the moment:
   - More pets of different colour schemes, 
-  - Make into chrome extension (since PyInstaller compiled exe files by Windows, don't work in macOS) &
+  - Make into chrome extension (since PyInstaller compiled exe files by Windows don't work in macOS) &
   - Possibility of integrating various AI/ML libraries - e.g. to track eyes movement via your webcam? (e.g. ScikitLearn? If it's feasible & got such pre-trained models to use?)
   
 ## Post Hackathon Reflection:
