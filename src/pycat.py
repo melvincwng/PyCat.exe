@@ -181,7 +181,7 @@ class PyCat():
         # The .pack() method is used to help display the widget in the window.
         self.label.pack()
 
-        # Call updateFramePosition() again after 100ms
+        # Call updateFramePosition() again after 10ms
         self.window.after(10, self.updateFramePosition)
 
         # If not deceased:
