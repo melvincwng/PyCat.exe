@@ -85,11 +85,11 @@ This approach/solution used in this desktop app is actually inspired from actual
 
 ## References:
 
-1. [American Optometric Association](https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/computer-vision-syndrome?sso=y)
-2. [American Optometric Association](https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/dry-eye?sso=y)
+1. [American Optometric Association - Computer Vision Syndrome](https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/computer-vision-syndrome?sso=y)
+2. [American Optometric Association - Eye & Vision Conditions](https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/dry-eye?sso=y)
 3. [Impact of dry eye on work productivity - by Masakazu Yamada, Yoshinobu Mizuno, and Chika Shigeyasu](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3471464/)
 4. [Making Eye Health a Population Health Imperative: Vision for Tomorrow.](https://www.ncbi.nlm.nih.gov/books/NBK402367/)
-5. [American Academy of Ophthalmology](https://www.aao.org/eye-health/tips-prevention/computer-vision-syndrome)
+5. [American Academy of Ophthalmology - Computer Vision Syndrome](https://www.aao.org/eye-health/tips-prevention/computer-vision-syndrome)
 6. [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
-7. [Stackoverflow](https://stackoverflow.com/)
+7. [StackOverFlow](https://stackoverflow.com/)
 8. [Seebass22's Technical Blog](https://seebass22.github.io/python-desktop-pet-tutorial/)
