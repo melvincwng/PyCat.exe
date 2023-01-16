@@ -14,6 +14,7 @@ It has two main purposes actually, i.e. to act as:
 3. Copy the pycatFinal.zip into another new folder of your choice & unzip it.
 4. Open the folder & you should see a `pycat.exe` file. Click on it to run the application.
 5. For the live demo, we will be using pycatDemo.zip instead (contains slightly modified code meant specifically for demo purposes). Copy the pycatDemo.zip into another new folder of your choice, unzip it & then run the `pycat.exe` file as well.
+6. Alternatively, clone the repository, open it using your IDE of choice & `cd src` to get into the src/ folder. Then, run the command `python pycat.py` to run the application.
 
 ## Problem statement / Problem description (What is the problem you are trying to solve in the hackathon?)
 
@@ -54,23 +55,25 @@ This approach/solution used in this desktop app is actually inspired from actual
 
 - Will be conducted during Judging session on 15/01/2023
 - Some screenshots:
-    - <img src="./img/Demo/pyCat1.png" alt="demo-image-1">
-    - <img src="./img/Demo/pyCat2.png" alt="demo-image-2">
-    - <img src="./img/Demo/pyCatLogo.png" alt="demo-image-3"> (Logo)
-- Devpost link: https://devpost.com/software/pycat-exe 
+  - <img src="./img/Demo/pyCat1.png" alt="demo-image-1">
+  - <img src="./img/Demo/pyCat2.png" alt="demo-image-2">
+  - <img src="./img/Demo/pyCatLogo.png" alt="demo-image-3"> (Logo)
+- Devpost link: https://devpost.com/software/pycat-exe
 
 ## Future plans (if there's time to work on this beyond the scope of the hackathon):
 
 - KIV at the moment:
-  - More pets of different colour schemes, 
+  - More pets of different colour schemes,
   - Make into chrome extension (since PyInstaller compiled exe files by Windows don't work in macOS) &
   - Possibility of integrating various AI/ML libraries - e.g. to track eyes movement via your webcam? (e.g. ScikitLearn? If it's feasible & got such pre-trained models to use?)
-  
+
 ## Post Hackathon Reflection:
+
 - My thoughts on the entire NUS Hack & Roll Hackathon 2023 can be found [here](https://musubi.vercel.app/admin1/nus-hack-and-roll-2023)
 - Overall, very fun & enjoyable event, and got to meet & network with some amazing people ✨
 
 ## Hackathon Counter & Tracker 🧮:
+
 1. DBS Techtrek 2021 (Virtual Hackathon)
 2. GitHub Hacktoberfest 2022 (Virtual Hackathon)
 3. NUS Hack & Roll 2023 (Physical Hackathon)
